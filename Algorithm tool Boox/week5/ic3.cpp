@@ -2,7 +2,7 @@
 #include <vector>
 
 using std::vector;
-
+#done
 int lcs3(vector<int> &a, vector<int> &b, vector<int> &c) {
   //write your code here
   return std::min(std::min(a.size(), b.size()), c.size());
